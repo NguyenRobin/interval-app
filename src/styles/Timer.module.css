@@ -1,0 +1,30 @@
+.Timer {
+  margin-bottom: 5rem;
+}
+
+.TimerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  & .Icon {
+    cursor: pointer;
+  }
+  & div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & span {
+      font-size: 8rem;
+      font-weight: 700;
+      line-height: 10rem;
+    }
+    & p {
+      font-size: 1.6rem;
+      line-height: 2.1rem;
+      color: #22222299;
+    }
+  }
+}

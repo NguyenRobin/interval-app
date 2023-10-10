@@ -1,0 +1,14 @@
+.AppLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 6rem auto 8rem;
+  width: 37.5rem;
+  height: 100vh;
+  /* height: 67rem; */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

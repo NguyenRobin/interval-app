@@ -1,0 +1,23 @@
+Header,
+.Header-dark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 1.5rem;
+  cursor: pointer;
+  & img {
+    z-index: 1000000;
+  }
+
+  & h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.Header-dark {
+  background-color: #222222;
+}

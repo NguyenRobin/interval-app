@@ -1,0 +1,32 @@
+.Modal {
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  width: 37.5rem;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.94);
+  /* background-color: #222222; */
+
+  display: flex;
+  justify-content: center;
+
+  & ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 2.4rem;
+
+    & a {
+      text-decoration: none;
+    }
+    & li {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
