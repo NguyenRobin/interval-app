@@ -1,4 +1,3 @@
-import { ChangeEvent } from 'react';
 import styles from '../styles/Intervals.module.css';
 
 interface IntervalsProps {
