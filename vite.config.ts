@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/interval-app',
+  base: '/interval-app/',
   server: {
     watch: {
       usePolling: true,
