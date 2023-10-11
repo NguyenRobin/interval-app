@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/github-actions',
   server: {
     watch: {
       usePolling: true,
@@ -12,5 +13,4 @@ export default defineConfig({
     strictPort: true,
     port: 5173, // you can replace this port with any port
   },
-  base: '/github-actions',
 });
