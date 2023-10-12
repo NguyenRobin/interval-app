@@ -30,6 +30,10 @@ jobs:
       - name: build project
         run: npm run build
 
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Configure Github Pages
         uses: actions/configure-pages@v3
 
