@@ -9,7 +9,7 @@ import Pause from './pages/Pause';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/interval-app/'}>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route element={<AppLayout />}>
